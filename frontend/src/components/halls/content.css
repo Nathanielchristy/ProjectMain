@@ -1,0 +1,78 @@
+
+  
+  .heading{
+      width: 100;
+  }
+  /* Material Mods
+  ========================*/
+  .card-wide.mdl-card {
+    width: 572px;
+    height: 500px;
+  }
+  
+  @media (max-width: 564px) {
+    .card-wide.mdl-card {
+    width: 190vw;
+  }
+  }
+  
+  .card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    
+  }
+  
+  .mdl-card__title-text {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    text-shadow: 1px 2px 3px #444;
+  }
+  
+  .card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  .audi{
+      margin-left: 35%;
+  }
+  .conference{
+      margin-left: 35%;
+  }
+  
+  .auditorium2{
+      text-align: center;
+      margin-left: 17%;
+      margin-right: 17%;
+      margin-bottom: 2%;
+      text-align: justify;
+      padding: 2px;
+    font-size: large;
+  }
+  .auditorium1{text-align: center;}
+  .conferencehall{
+    text-align: center;
+
+  }
+  .conferencehall2{
+    text-align: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 2%;
+    text-align: justify;
+    padding: 2px;
+    font-size: large;
+  }
+  .banquethall{text-align: center;
+
+  }
+  .banquethall2{
+    text-align: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 2%;
+    text-align: justify;
+    padding: 2px;
+    font-size: large;
+  }
+  .banquet{
+      margin-left: 35%;
+  }

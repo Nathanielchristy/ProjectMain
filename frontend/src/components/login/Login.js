@@ -16,7 +16,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import ErrorMessage from "../ErrorMessage";
 import { useNavigate } from "react-router-dom";
-import ButtonAppBar from "../header/Header.js";
+import ButtonAppBar from "../header/Header";
 
 function Copyright(props) {
   return (
@@ -43,14 +43,14 @@ export default function SignInSide() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   let navigate = useNavigate();
-  const redirecthome = async() => {
-    await navigate("home",{ replace: true });
+  const redirecthome = async () => {
+    await navigate("home", { replace: true });
   };
   useEffect(() => {
     const userInfo = localStorage.getItem("userInfo");
     if (userInfo) {
       redirecthome();
-  }
+    }
   });
 
   const handleSubmit = async (event) => {
@@ -75,7 +75,7 @@ export default function SignInSide() {
       console.log(data.isAdmin);
       if (data) {
         redirecthome();
-    }
+      }
     } catch (error) {
       setError(error.response.data.message);
       console.log(error.response.data.message);
@@ -84,9 +84,7 @@ export default function SignInSide() {
 
   return (
     <>
-      <div>
-        <ButtonAppBar />
-      </div>
+      <div>{<ButtonAppBar />}</div>
       <div>
         <ThemeProvider theme={theme}>
           <Grid container component="main" sx={{ height: "100vh" }}>
@@ -167,7 +165,7 @@ export default function SignInSide() {
                     control={<Checkbox value="remember" color="primary" />}
                     label="Remember me"
                   />
-                  
+
                   <Button
                     type="submit"
                     fullWidth

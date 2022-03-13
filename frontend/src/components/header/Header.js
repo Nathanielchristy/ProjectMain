@@ -21,7 +21,10 @@ export default function ButtonAppBar() {
   const StyledePapper=styled(Paper,{
     name:"Style"
   })({
-    color:"black",
+    textAlign:"center",
+    fontFamily:"Cursive",
+    backgroundColor: 'aliceblue',
+    fontSize:"50",
   });
   return (
     <>
@@ -42,6 +45,7 @@ export default function ButtonAppBar() {
       </AppBar>
     </Box>
     </StyledePapper>
+    
     </>
   );
 }

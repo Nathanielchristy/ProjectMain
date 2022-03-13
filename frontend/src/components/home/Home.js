@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import Selectable from "./Calender";
+
 
 function Home(props) {
-    return (
-        <div>
-            Home
-        </div>
-    );
+  let navigate = useNavigate();
+
+  return (
+    <>
+ 
+      <div>
+          <Selectable></Selectable>
+      </div>
+    </>
+  );
 }
 
 export default Home;

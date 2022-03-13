@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41214860.css",
+    "main.js": "/static/js/main.130acc61.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/audi.jpg": "/static/media/audi.506cd8bdc16e5fedfde8.jpg",
+    "static/media/cabaret.jpg": "/static/media/cabaret.a120e263f3fc0e690fff.jpg",
+    "index.html": "/index.html",
+    "main.41214860.css.map": "/static/css/main.41214860.css.map",
+    "main.130acc61.js.map": "/static/js/main.130acc61.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41214860.css",
+    "static/js/main.130acc61.js"
+  ]
+}

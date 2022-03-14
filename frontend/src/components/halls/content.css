@@ -1,78 +1,146 @@
 
-  
-  .heading{
-      width: 100;
-  }
-  /* Material Mods
-  ========================*/
+
+.heading{
+    width: 100;
+}
+/* Material Mods
+========================*/
+.card-wide.mdl-card {
+  width: 572px;
+  height: 500px;
+}
+
+@media (max-width: 564px) {
   .card-wide.mdl-card {
-    width: 572px;
-    height: 500px;
-  }
-  
-  @media (max-width: 564px) {
-    .card-wide.mdl-card {
-    width: 190vw;
-  }
-  }
-  
-  .card-wide > .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    
-  }
-  
-  .mdl-card__title-text {
-    font-family: 'Roboto';
-    font-size: 3rem;
-    text-shadow: 1px 2px 3px #444;
-  }
-  
-  .card-wide > .mdl-card__menu {
-    color: #fff;
-  }
-  .audi{
-      margin-left: 35%;
-  }
-  .conference{
-      margin-left: 35%;
-  }
-  
-  .auditorium2{
-      text-align: center;
-      margin-left: 17%;
-      margin-right: 17%;
-      margin-bottom: 2%;
-      text-align: justify;
-      padding: 2px;
-    font-size: large;
-  }
-  .auditorium1{text-align: center;}
-  .conferencehall{
-    text-align: center;
+  width: 190vw;
+}
+}
 
-  }
-  .conferencehall2{
+.card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  
+}
+
+.mdl-card__title-text {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  text-shadow: 1px 2px 3px #444;
+}
+
+.card-wide > .mdl-card__menu {
+  color: #fff;
+}
+/* .audi{
+    margin-left: 35%;
+} */
+
+
+.auditorium2{
     text-align: center;
-    margin-left: 17%;
+    /* margin-left: 17%;
     margin-right: 17%;
-    margin-bottom: 2%;
+    margin-bottom: 2%; */
     text-align: justify;
     padding: 2px;
-    font-size: large;
-  }
-  .banquethall{text-align: center;
+  font-size: medium;
+  
+}
+.poster{
 
-  }
-  .banquethall2{
-    text-align: center;
-    margin-left: 17%;
-    margin-right: 17%;
-    margin-bottom: 2%;
-    text-align: justify;
-    padding: 2px;
-    font-size: large;
-  }
-  .banquet{
-      margin-left: 35%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center
+ 
+  
+} 
+
+.poster{margin-bottom: 5%;}
+
+.poster1{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+
+}
+.poster2{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+
+}
+
+.auditorium1{text-align: center;
+  
+
+}
+
+.first{
+  font-size: 20px;
+      padding-left: 20px;
+      width: 40%;
+      margin-left: 5%;
+}
+.second{
+  
+    font-size: 20px;
+        padding-left: 20px;
+        width: 40%;
+        margin-left: 5%;
+  
+}
+.third{
+  font-size: 20px;
+        padding-left: 20px;
+        width: 40%;
+        margin-left: 5%;
+
+}
+
+.audi{
+  float:right;
+  width: 35%;
+  height: 4%;
+  margin-right: 10%;
+  
+}
+.conference{
+float:right;
+width: 35%;
+height: 4%;
+margin-right: 10%;
+}
+.banquet{
+float:right;
+width: 35%;
+height: 4%;
+margin-right: 10%;
+
+}
+.conferencehall{
+  text-align: center;
+
+}
+.conferencehall2{
+  text-align: center;
+  /* margin-left: 17%;
+  margin-right: 17%;
+  margin-bottom: 2%; */
+  text-align: justify;
+  padding: 2px;
+  font-size: medium;
+}
+.banquethall{text-align: center;
+
+}
+.banquethall2{
+  text-align: center;
+  /* margin-left: 17%;
+  margin-right: 17%;
+  margin-bottom: 2%; */
+  text-align: justify;
+  padding: 2px;
+  font-size: medium;
+}
